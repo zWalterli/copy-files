@@ -4,15 +4,15 @@ import os.path
 import time
 
 # Caminho onde será salvo os arquivos
-Caminho = 'C:/Users/wvj/Desktop/Script_Python/Arquivos_Capturados/'
+Caminho = 'C:/Users/wvj/Desktop/Script_Python/Arquivos_Capturados/'   # Raiz do caminho onde será copiado os arquivos
 
+# Pasta específica para guardar os arquivos
+newAdress = Caminho + 'ROBO_SIACP/'
+    
 while 1 == 1:
     
     print("---------------------------------------------------")
     print("Iniciando capitura de arquivos...")
-    
-    # Concatenando com a pasta para guardar o log
-    newAdress = Caminho + 'ROBO_SIACP/'
     
     # Local onde o script vai "observar" e copiar os arquivos
     oldAdress = 'S:/Area_Transferencia_Comum/SIACP/PRODUÇÃO/' #ORIGEM
